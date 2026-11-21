@@ -1,0 +1,1 @@
+* * * * * /usr/bin/php /var/www/radbox/bin/sync-vouchers.php >> /var/www/radbox/storage/logs/cron.log 2>&1

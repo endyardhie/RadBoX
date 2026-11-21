@@ -1,0 +1,43 @@
+# Local credentials and machine configuration
+.env*
+!.env.example.php
+.aws/
+.ssh/
+.codex/
+.agents/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*credentials*.json
+*service-account*.json
+
+# Runtime data, database dumps, and temporary MySQL credentials
+/storage/*
+!/storage/logs/
+!/storage/backups/
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/backups/*
+!/storage/backups/.gitkeep
+*.sql
+!database/schema.sql
+!database/migrations/*.sql
+*.sql.gz
+*.sqlite*
+*.db
+*.log
+mysql-defaults-*
+
+# Local tools and generated files
+/vendor/
+/node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.bak
+*.backup
+*.tmp
+*.swp

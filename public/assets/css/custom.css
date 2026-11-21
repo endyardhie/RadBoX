@@ -1,0 +1,62 @@
+html { scroll-behavior: smooth; }
+.print-only { display: none; }
+.mobile-menu summary,
+.mobile-bottom-menu summary { list-style: none; }
+.mobile-menu summary::-webkit-details-marker,
+.mobile-bottom-menu summary::-webkit-details-marker { display: none; }
+
+.theme-dark {
+  background: #0f172a !important;
+  color: #e2e8f0 !important;
+}
+.theme-dark .bg-white,
+.theme-dark .bg-slate-50,
+.theme-dark .bg-slate-100 {
+  background-color: #111827 !important;
+}
+.theme-dark .border-slate-100,
+.theme-dark .border-slate-200,
+.theme-dark .border-slate-300 {
+  border-color: #334155 !important;
+}
+.theme-dark .text-slate-900,
+.theme-dark .text-slate-700,
+.theme-dark .text-slate-600 {
+  color: #e2e8f0 !important;
+}
+.theme-dark .text-slate-500 {
+  color: #94a3b8 !important;
+}
+.theme-dark input,
+.theme-dark select,
+.theme-dark textarea {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+  color: #e2e8f0 !important;
+}
+.theme-dark input::placeholder,
+.theme-dark textarea::placeholder {
+  color: #64748b !important;
+}
+.theme-dark table thead {
+  background-color: #1e293b !important;
+}
+.theme-dark .mobile-bottom-nav,
+.theme-dark .mobile-bottom-menu > div {
+  background-color: rgba(17, 24, 39, .96) !important;
+}
+.theme-dark tbody.divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-color: #334155 !important;
+}
+.theme-dark .shadow-sm {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .4) !important;
+}
+.theme-dark a:hover,
+.theme-dark button:hover {
+  filter: brightness(1.1);
+}
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block; }
+  body { background: #fff !important; }
+}

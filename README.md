@@ -2,8 +2,6 @@
 
 Panel manajemen hotspot berbasis PHP native, FreeRADIUS 3.x, dan MariaDB/MySQL untuk MikroTik.
 
-**Author: Endy Ardhie**
-
 ## Fitur
 
 - Multi-tenant dengan role Super Admin, Tenant Owner, dan Technician.
